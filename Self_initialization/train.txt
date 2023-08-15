@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python src/main.py -t -e -s  --eval_type valid  --print_every 100000000 --save_every 500  -c src/configs/ILSVRC2012/BigGAN256.json --load_current --checkpoint_folder ../Source_target_initialization/results/Source_target_initialization/checkpoint  --log_output_path results/Self_initialization 
+

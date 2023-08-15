@@ -1,0 +1,4 @@
+# using the pretrained BigGAN: (model=G-best-weights-step=198000.pth and model=D-best-weights-step=198000.pth)
+CUDA_VISIBLE_DEVICES=2 python src/main.py -t -e -s  --eval_type valid  --print_every 100 --save_every 200   --crop no  -c src/configs/ILSVRC2012/BigGAN256.json --checkpoint_folder results/Source_target_initialization/checkpoint  --log_output_path results/Source_target_initialization 
+
+

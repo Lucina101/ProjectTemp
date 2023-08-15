@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=2 python src/main.py -t -e -s  --eval_type valid  --print_every 100 --save_every 2000 -c src/configs/ILSVRC2012/BigGAN256.json --load_current --checkpoint_folder ../Self_initialization/results/Self_initialization/checkpoint  --log_output_path results/I2I_aux_G
+
+
